@@ -1,4 +1,4 @@
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1447573061699371162/ZKbfaYHIUMziN8eTWCzjyjKBpgLxViHrjUxBoOy6vML42ZJhEDXdJy5G5do2M87K0Z1r";
+const DISCORD_WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL";
 
 export default {
   async fetch(request) {
