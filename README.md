@@ -3,7 +3,7 @@
 A lightweight, serverless "bridge" that forwards Sentry error alerts to Discord via Webhooks.
 
 The Problem: Sentry's native Discord integration is locked behind their paid "Trial" or "Business" plans.
-The Solution: This Cloudflare Worker allows users on Sentry's Free Tier to receive rich, detailed error notifications in Discord for $0.
+The Solution: This Cloudflare Worker allows users on Sentry's Free Tier to receive rich, detailed error notifications in Discord for free.
 
 ✨ Features
 
@@ -18,8 +18,6 @@ Environment & Error Level
 User IP & Geographical Location (Country)
 
 Request Method & Browser/Client details
-
-Visual Color Coding: Automatically maps Sentry error levels (Fatal, Error, Warning, etc.) to Discord embed colors.
 
 High Performance: Runs on the Cloudflare Edge network for near-instant delivery.
 
